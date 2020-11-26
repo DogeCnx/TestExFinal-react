@@ -15,6 +15,10 @@ function Home() {
       <div>
         <Link to="pokemon-data-fetch">Question #3 - Pokemon Data Fetching</Link>
       </div>
+
+      <div>
+        <Link to="LibraVsFram">Question #4 - LibraVsFram</Link>
+      </div>
     </>
   )
 }

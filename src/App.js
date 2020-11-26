@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import SigninForm from './pages/SignInForm'
 import CssTransformation from './pages/CssTransformation'
 import PokemonDataFetch from './pages/PokemonDataFetch'
+import LibraVsFram from './pages/LibraVsFram'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/signin-form" component={SigninForm} />
         <Route path="/css-transformation" component={CssTransformation} />
         <Route path="/pokemon-data-fetch" component={PokemonDataFetch} />
+        <Route path="/LibraVsFram" component={LibraVsFram} />
       </Switch>
     </Router>
   );
